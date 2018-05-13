@@ -1,0 +1,56 @@
+.copyright 
+{
+    margin: auto;
+    width: 7.5%;
+}
+
+body {
+    overflow: auto;
+}
+
+header {
+    height: 40px;
+    width: 80%;
+    margin-left: 10%; 
+    margin-right: 20px;
+    border: 1px solid blue;
+}
+
+.header-box
+{
+    height: 20px;
+    width: 120px;
+    margin-left: 20%;
+    background: #4aaaa5;
+    color: #fff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid green;
+}
+
+.header-right
+{
+    float: right;
+    margin-right: 20%;
+    border: 1px solid red;
+}
+
+.hd 
+{
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.blah
+{
+    border: 1px solid green;
+    padding: 1px;
+}
+
+.clearFlowTheBeforeFooterElement::after {
+    content: "";
+    display: block;
+    clear: both;
+}
