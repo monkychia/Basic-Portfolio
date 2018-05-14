@@ -8,7 +8,7 @@
 
 .header 
 {
-    height: 50px;
+    height: 60px;
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
@@ -17,7 +17,7 @@
 
 .header-box
 {
-    height: 20px;
+    height: 30px;
     width: 150px;
     background: #4aaaa5;
     color: #ffffff;
@@ -127,6 +127,112 @@ body
     display: inline-block;
     margin-left: 10px;
     vertical-align: top;
+}
+
+#row1 
+{
+    width: 919px;
+    height: 150px;
+    bottom: 0;
+    margin-top: 30px;
+}
+
+#row2 
+{
+    width: 919px;
+    height: 150px;
+    bottom: 0;
+    margin-top: 30px;
+}
+
+#row3 
+{
+    width: 919px;
+    height: 150px;
+    bottom: 0;
+    margin-top: 30px;
+}
+
+.square_odd 
+{
+    display: inline-block;
+    width: 23%;
+    height: 150px;
+    margin-right: 35px;
+    background-color: #666666;
+    /*border: 1px red solid;*/
+}
+
+.square_even 
+{
+    background-color: orange;
+    display: inline-block;
+    width: 23%;
+    height: 150px;
+}
+
+.banner1-1
+{
+    background-color: #4aaaa5;
+    width: 211px;
+    height: 40px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 292px;
+}
+
+.banner1-2
+{
+    background-color: #4aaaa5;
+    width: 212px;
+    height: 40px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 292px;
+    left: 309px;
+}
+
+.banner2-1
+{
+    background-color: #4aaaa5;
+    width: 211px;
+    height: 40px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 472px;
+}
+
+.banner2-2
+{
+    background-color: #4aaaa5;
+    width: 212px;
+    height: 40px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 472px;
+    left: 309px;
+}
+
+.banner3-1
+{
+    background-color: #4aaaa5;
+    width: 211px;
+    height: 40px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 652px;
+}
+
+.banner-label
+{
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    line-height: 40px;
 }
 
 footer
