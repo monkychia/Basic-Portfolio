@@ -3,6 +3,7 @@
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 12px;
+    line-height: 2;
 }
 
 .header 
@@ -58,7 +59,7 @@ body
     border-top-color: #cccccc;
     border-bottom-style: solid;
     border-bottom-color: #4aaaa5;
-    border-bottom-width: 10px;
+    border-bottom-width: 5px;
 }
 
 .nav
@@ -105,6 +106,29 @@ body
     margin-top: 10px;
 }
 
+.blocks
+{
+    position: relative;
+}
+
+.image
+{
+    width: 200px;
+    height: 150px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.side
+{
+    width: 700px;
+    height: 150px;
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
 footer
 {
     background: #666666;
@@ -123,16 +147,4 @@ footer
     position: absolute;
     bottom: 0;
     left: 48%;
-}
-
-.blah
-{
-    border: 1px solid green;
-    padding: 1px;
-}
-
-.clearFlowTheBeforeFooterElement::after {
-    content: "";
-    display: block;
-    clear: both;
 }
